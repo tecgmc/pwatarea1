@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Programación Web Avanzada | Tarea Práctica 1</title>
+<style>
+:root{--navy:#14213d;--blue:#2563eb;--cyan:#06b6d4;--ink:#263247;--muted:#64748b;--bg:#f4f7fb;--white:#fff}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Arial,Helvetica,sans-serif;background:var(--bg);color:var(--ink);line-height:1.6}
+.hero{padding:70px 22px 62px;background:linear-gradient(130deg,#14213d,#1d4ed8 65%,#06b6d4);color:white;text-align:center}
+.hero .tag{display:inline-block;padding:6px 13px;border:1px solid #ffffff70;border-radius:30px;font-size:.85rem;letter-spacing:.06em}
+.hero h1{font-size:clamp(2rem,5vw,3.7rem);line-height:1.1;margin:20px auto 14px;max-width:850px}.hero p{max-width:680px;margin:0 auto;color:#e5efff;font-size:1.1rem}
+main{max-width:1120px;margin:0 auto;padding:32px 20px 60px}.intro{display:grid;grid-template-columns:1.3fr 1fr;gap:22px;margin-top:-45px;position:relative}
+.panel{background:white;border-radius:20px;padding:25px;box-shadow:0 14px 35px #14213d12}.panel h2{margin-top:0;color:var(--navy)}
+.stat{display:flex;gap:14px;align-items:center}.stat strong{font-size:2.4rem;color:var(--blue);line-height:1}
+.exercise-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;margin-top:26px}
+.exercise{display:flex;gap:16px;align-items:flex-start;text-decoration:none;color:inherit;background:white;border:1px solid #e3eaf4;border-radius:16px;padding:19px;transition:.2s}
+.exercise:hover{transform:translateY(-3px);border-color:#93c5fd;box-shadow:0 10px 25px #1d4ed815}
+.num{flex:0 0 44px;height:44px;display:grid;place-items:center;background:#eaf2ff;color:#1d4ed8;border-radius:13px;font-weight:800}
+.exercise h3{margin:0 0 5px;color:var(--navy)}.exercise p{margin:0;color:var(--muted);font-size:.94rem}
+.note{margin-top:24px;background:#eaf8ff;border-left:4px solid var(--cyan);padding:17px 20px;border-radius:8px}
+footer{text-align:center;padding:24px;color:#cbd5e1;background:var(--navy)}
+@media(max-width:700px){.intro{grid-template-columns:1fr;margin-top:-28px}.exercise-grid{grid-template-columns:1fr}.hero{padding-top:52px}}
+</style>
+</head>
+<body>
+<header class="hero">
+<span class="tag">UNIDAD 1 · FUNDAMENTOS DE PROGRAMACIÓN WEB</span>
+<h1>Mi espacio de aprendizaje web</h1>
+<p>Bienvenido/a a mi portafolio de la Tarea Práctica 1. Aquí se presentan diez ejercicios para practicar la estructura HTML, los estilos CSS y los principios básicos del diseño web responsivo.</p>
+</header>
+<main>
+<section class="intro">
+<div class="panel"><h2>Sobre este proyecto</h2><p>Este sitio reúne ejemplos sencillos y funcionales de páginas web. Cada actividad demuestra el uso de etiquetas semánticas, enlaces, listas, tablas, formularios, cajas, navegación, imágenes y diseños adaptables a distintos dispositivos.</p></div>
+<div class="panel stat"><div><strong>10</strong><div>ejercicios prácticos</div></div><div><strong>2</strong><div>tecnologías base: HTML y CSS</div></div></div>
+</section>
+<section aria-labelledby="ejercicios"><h2 id="ejercicios">Explora los ejercicios</h2>
+<div class="exercise-grid">
+<a class="exercise" href="ej01.html"><span class="num">01</span><div><h3>Página HTML básica</h3><p>Título, encabezado y presentación personal.</p></div></a>
+<a class="exercise" href="ej02.html"><span class="num">02</span><div><h3>Enlaces y listas</h3><p>Red social y lista de pasatiempos.</p></div></a>
+<a class="exercise" href="ej03.html"><span class="num">03</span><div><h3>Tablas</h3><p>Países y sus respectivas capitales.</p></div></a>
+<a class="exercise" href="ej04.html"><span class="num">04</span><div><h3>Formulario básico</h3><p>Registro de nombre, correo y edad.</p></div></a>
+<a class="exercise" href="ej05.html"><span class="num">05</span><div><h3>Estilos con CSS</h3><p>Biografía con fondo y tipografía personalizados.</p></div></a>
+<a class="exercise" href="ej06.html"><span class="num">06</span><div><h3>Diseño de caja</h3><p>Tarjeta estilizada con control deslizante.</p></div></a>
+<a class="exercise" href="ej07.html"><span class="num">07</span><div><h3>Navegación</h3><p>Menú horizontal, secciones y redes sociales.</p></div></a>
+<a class="exercise" href="ej08.html"><span class="num">08</span><div><h3>Diseño responsivo</h3><p>Adaptación a móviles, tabletas y escritorio.</p></div></a>
+<a class="exercise" href="ej09.html"><span class="num">09</span><div><h3>Imágenes y galería</h3><p>Galería de pasatiempos con ventana emergente.</p></div></a>
+<a class="exercise" href="ej10.html"><span class="num">10</span><div><h3>Página completa</h3><p>Encabezado, contenido, barra lateral y pie de página.</p></div></a>
+</div>
+<div class="note"><strong>Nota de personalización:</strong> reemplaza “Estudiante” y los datos de ejemplo por tu nombre y tu información antes de entregar la tarea.</div>
+</section>
+</main>
+<footer><p>Programación Web Avanzada · Tarea Práctica 1</p></footer>
+</body>
+</html>
